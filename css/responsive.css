@@ -1,0 +1,199 @@
+@media (min-width: 320px) and (max-width: 575.98px) { 
+
+    .navbar {
+        top: 0;
+        background: tan;
+    }
+
+    .navbar-toggler{
+        border: 0;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .navbar-nav .nav-item::after {
+        left: 0;
+        transform: translateX(0);
+    }
+
+    .navbar-nav .nav-item:first-child:after {
+        left: 0;
+        transform: translateX(0);
+    }
+
+    /* ================================== */
+
+    #banner_part {
+        padding: 80px 0 50px;
+    }
+
+    #banner_part .banner_datails h1 {
+        font-size: 33px;
+        line-height: 137%;
+        
+    }
+
+    #banner_part .banner_datails input {
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px 20px 10px 29px;
+        font-size: 13px;
+    }
+
+    #banner_part .banner_datails .counter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #banner_part .banner_img {
+        display: none;
+    }
+
+    #banner_part .banner_datails form .location {
+        top: 50%;
+        left: 13px;  
+    }
+
+    #banner_part .banner_datails form button {
+        display: none;
+    }
+
+    #banner_part .banner_datails form .search{
+        position: absolute;
+        top: 50%;
+        right: 7px;
+        transform: translateY(-50%);
+    }
+
+    #banner_part .banner_datails .count h2 {
+        margin-top: 15px;
+        font-size: 30px;
+    }
+
+    #banner_part .banner_datails .count {
+        text-align: center;
+    }
+
+    /* ============================= */
+
+    #card_part {
+        padding: 50px 0;
+    }
+
+    #card_part h1 {
+        font-size: 33px;
+        line-height: 122%;
+        margin-bottom: 25px;
+        width: auto;
+    }
+
+    .res_card{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    /* ================================= */
+
+    #resident {
+        padding: 30px 0 0;
+    }
+
+    #resident h2 {
+        font-size: 30px;
+        line-height: 140%;
+        
+    }
+
+    .imageone {
+        position: relative;
+        transform: scale(.5);
+        left: -74px;
+        top: -140px;
+    }
+
+    #resident .image .imagetwo {
+        top: -96px;
+        left: 5px;
+        filter: none;
+        transform: scale(.5);
+    }
+
+    #resident h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 10px 0;
+    }
+
+    #resident p {
+        margin-top: -10px;
+    }
+
+    #resident form input {
+        padding: 13px 75px 13px 47px;
+    }
+
+    #resident form i {
+        top: 21%;
+        left: 17px; 
+    }
+
+    #resident form button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    /* =============================== */
+
+    #kota {
+        padding: 40px 0 50px;
+    }
+
+    #kota h2 {
+        font-size: 34px;
+        line-height: 120%;
+        margin-bottom: 45px;
+    }
+
+    /* ================================== */
+
+    footer h2 { 
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    footer .contact {
+        row-gap: 10px;
+        flex-direction: column;
+    }
+
+    footer h3 {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    footer .footer_logo .image {
+        margin-top: 35px;
+        flex-direction: column;
+    }
+
+    /* ============================ */
+    
+    #copy_part .icon {
+        column-gap: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+ }
